@@ -1,0 +1,15 @@
+Instalação do WSL2 e Arch Linux no Windows
+
+Para configurar o WSL2 (Windows Subsystem for Linux 2) e instalar o Arch Linux no Windows, siga os passos abaixo:
+
+Verifique a virtualização: Certifique-se de que a virtualização está ativada no sistema. Isso pode ser verificado no Gerenciador de Tarefas, na aba "Desempenho", onde você encontrará a seção "Virtualização".
+
+Instalar o WSL2: O WSL2 pode ser instalado facilmente via PowerShell. Após a instalação, o Ubuntu será configurado como a distribuição padrão, mas você pode mudar para outra, como o Arch Linux.
+
+Instalar o Arch Linux: O Arch Linux não está disponível diretamente na Microsoft Store, mas pode ser baixado como uma imagem e configurado manualmente. Após a extração e configuração, o Arch Linux estará pronto para uso no WSL2.
+
+Fontes:
+
+https://support.microsoft.com/pt-br/windows/habilitar-a-virtualiza%C3%A7%C3%A3o-no-windows-c5578302-6e43-4b4b-a449-8ced115f58e1
+https://learn.microsoft.com/pt-br/windows/wsl/install
+https://github.com/yuk7/ArchWSL
